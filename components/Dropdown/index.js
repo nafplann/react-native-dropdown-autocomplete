@@ -507,6 +507,7 @@ export default class Dropdown extends PureComponent {
               ItemSeparatorComponent={this.renderSeparator}
               ListFooterComponent={this.renderFooter}
               ListHeaderComponent={this.renderHeader}
+              nestedScrollEnabled = {true}
             />
           </View>
         )}
